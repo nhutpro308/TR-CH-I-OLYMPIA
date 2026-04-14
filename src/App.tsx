@@ -422,7 +422,7 @@ export default function App() {
       {/* CỘT GIỮA: SÂN CHƠI CHÍNH */}
       <div className="flex-1 flex flex-col">
         <div className="flex flex-wrap justify-between items-center mb-6 gap-4">
-          <h1 className={`text-3xl font-black tracking-tighter ${isDarkMode ? 'text-white' : 'text-blue-900'}`}>OLYMPIA <span className="text-blue-500">MOUNTAIN</span></h1>
+          <h1 className={`text-3xl font-black tracking-tighter ${isDarkMode ? 'text-white' : 'text-blue-900'}`}>ĐƯỜNG LÊN ĐỈNH <span className="text-blue-500">OLYMPIA</span></h1>
           
           <div className={`flex gap-2 p-2 rounded-2xl shadow-sm border ${isDarkMode ? 'bg-[#1e293b] border-blue-900/30' : 'bg-white border-gray-200'}`}>
             <button onClick={toggleTheme} className={`p-2 rounded-xl transition-colors ${isDarkMode ? 'bg-[#334155] text-yellow-400' : 'bg-gray-100 text-gray-600'}`}>
